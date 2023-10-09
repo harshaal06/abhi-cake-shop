@@ -1,0 +1,447 @@
+.anh {
+    color: #d8b188;
+    color: #2f5663;
+    color: #c18653;
+    color: #383b38;
+}
+
+body {
+    background-color: #d3a778;
+    margin: 0;
+    padding: 0%;
+}
+
+.nav-bar {
+    background-color: #383b38;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0px 5px 5px #745336;
+    text-decoration: none;
+}
+
+.cake-icon {
+    height: 55px;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.brand-name {
+    color: #c18653;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: "Algerian";
+}
+.brand-img{
+    display: flex;
+    flex-direction: row;
+}
+.no{
+    text-decoration: none;
+}
+
+.Nav-name-box {
+    margin: auto;
+}
+
+.Nav-name {
+    margin: 20px;
+    color: rgb(204, 202, 202);
+    font-size: 20px;
+    font-family: "Algerian";
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Nav-name:hover {
+    transition: 0.2s;
+    color: #c18653;
+}
+
+.box {
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px 10px;
+}
+
+.main-img {
+    height: 450px;
+}
+
+.brand {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.Explore-button {
+    background-color: #2f5663;
+    padding: 5px 25px;
+    border-radius: 40px;
+    font-size: 20px;
+    border: solid 3px #383b38;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.headind {
+    font-size: 100px;
+    font-weight: bold;
+    color: black;
+}
+
+.sub-head {
+    color: #383b38;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.Explore-button:hover {
+    transform: scale(1.07);
+    transition: 0.2s;
+    background-color: #c18653;
+}
+.up-arrow{
+    position: fixed;
+    width: 40px;
+    right: 80px;
+    bottom: 80px;
+    border-radius: 50%;
+    border: 1px solid #745336;
+    box-shadow: 0px 0px 5px 3px #745336;
+}
+.up-arrow:hover{
+    transform: scale(1.2);
+    animation-direction: alternate;
+    transition: 0.3s;
+}
+.feature-box{
+    background-color: #d8b188;
+    padding: 10px;
+}
+.feature-title{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+.feature-card-box{
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    background-color: #d8b188;
+}
+.feature-card{
+    background-color: #e6cdb2;
+    width: 320px;
+    box-shadow: 0px 0px 10px 1px #c18653;
+    border-radius: 10px;
+    padding: 5px;
+    position: relative;
+}
+.feature-card-icon{
+    position: absolute;
+    margin-left: 120px;
+    font-size: 50px;
+    background-color: #e6cdb2;
+    box-shadow: 0px 0px 10px 0.5px #c18653;
+    margin-top: -40px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 65px;
+    border: solid 1px #c18653;
+    text-align: center;
+}
+.feature-card-main{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 22px;
+}
+.feature-card-line{
+    text-align: center;
+    margin: 5px 10px;
+}
+.bestseller-box{
+    background-color: #d3a778;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.bestseller-cake-card-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.bestseller-cake-card{
+    background-color: #c18653;
+    width: 280px;
+    box-shadow: 2px 2px 10px 1px #383b38;
+    border: solid 2px #c18653;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 40px;
+}
+.bestseller-cake-img{
+    width: 170px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bestseller-cake-name{
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 15px;
+}
+.bestseller-cake-price{
+    text-align: center;
+    margin: 15px auto;
+    color: #4f1901;
+    font-size: 22px;
+}
+.bestseller-cake-button{
+    display: block;
+    margin: 3px auto;
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: #2f5663;
+    border-radius: 10px;
+    padding: 7px 20px;
+    border: solid 2px black;
+    cursor: pointer;
+}
+.bestseller-cake-button:hover{
+    background-color: #d3a778;
+}
+.bestseller-cake-card:hover{
+    transform: scale(1.05);
+    animation-direction: alternate;
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px 5px #383b38;
+}
+.online-cake-box{
+    background-color: #d8b188;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+.online-cake-card-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 40px auto;
+}
+.online-cake-card{
+    padding: 10px;
+    height: 200px;
+    background-color: #e6cdb2;
+    box-shadow: 0px 0px 10px 1px #c18653;
+    border-radius: 50%;
+}
+.online-cake-img{
+    width: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.online-cake-img:hover{
+    transform: scale(1.2);
+    animation-direction: alternate;
+    transition: 0.5s;
+}
+.online-cake-sm-img{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.online-cake-name{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+@media screen and (max-width:768px) {
+    .cake-icon {
+        height: 60px;
+        margin: 5px;
+        margin-left: 20px;
+    }
+    .nav-bar{
+        flex-direction: column;
+    }
+    .brand-name {
+        font-size: 25px;
+    }
+    .brand-img{
+        display: flex;
+        flex-direction: row;
+    }
+    .Nav-name-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .Nav-name {
+        margin: 5px;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 10px;
+        padding: 1px 10px;
+        box-shadow: 0px 0px 2px 0.5px #c18653;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90px;
+    }
+
+    .box {
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .main-img {
+        height: 380px;
+    }
+
+    .brand {
+        text-align: center;
+    }
+    
+    .headind {
+        font-size: 62px;
+    }
+
+    .sub-head {
+        font-size: 15px;
+        margin-top: 0px;
+    }
+
+    .Explore-button {
+        padding: 5px 25px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .up-arrow{
+        right: 20px;
+        bottom: 50px;
+    }
+    .feature-card-box{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .feature-title{
+        font-size: 35px;
+    }
+    .feature-card{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+    }
+    .feature-card-icon{
+        font-size: 40px;
+    }
+    .feature-card-main{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .feature-card-line{
+        margin: 0px 5px;
+    }
+    .bestseller-cake-card{
+        width: 400px;
+        display: flex;
+        flex-direction: row;
+    }
+    .online-cake-card-box{
+        margin: 0px auto;
+    }
+    .online-cake-card{
+        padding: 10px;
+        height: 150px;
+        width: 160px;
+        margin: 30px 20px;
+    }
+    .online-cake-sm-img{
+        margin-bottom: 40px;
+    }
+    .online-cake-img{
+        width: 150px;
+    }
+}
+
+@media screen and (min-width:767px) and (max-width:991px) {
+    .cake-icon {
+        height: 35px;
+        margin-left: 15px;
+    }
+
+    .brand-name {
+        font-size: 17px;
+    }
+
+    .Nav-name {
+        font-size: 14px;
+        margin: 15px;
+    }
+
+    .box {
+        padding: 40px 10px;
+    }
+
+    .main-img {
+        height: 400px;
+    }
+
+    .headind {
+        font-size: 65px;
+    }
+
+    .sub-head {
+        font-size: 14px;
+        margin-top: 7px;
+    }
+
+    .Explore-button {
+        padding: 2px 20px;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .feature-card-box{
+        margin: 30px 0px;
+    }
+    .feature-card-icon{
+        margin-left: 140px;
+    }
+    .feature-card{
+        margin: 25px;
+        width: 350px;
+    }
+
+    .bestseller-cake-card{
+        width: 260px;
+        padding: 5px;
+        margin-top: 30px;
+    }
+    .bestseller-cake-img{
+        width: 150px;
+    }
+    .online-cake-card-box{
+        padding: 20px;
+        margin: 0px auto;
+    }
+    .online-cake-card{
+        margin: 30px;
+    }
+    .online-cake-sm-img{
+        margin-bottom: 60px;
+    }
+    .online-cake-img{
+        width: 200px;
+    }
+}
