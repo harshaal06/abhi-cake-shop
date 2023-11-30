@@ -1,0 +1,14 @@
+body{
+    background-color:#d3a778 ;
+}
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-login{
+    text-align: center;
+}
