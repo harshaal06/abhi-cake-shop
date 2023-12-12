@@ -24,14 +24,11 @@ body {
     color: #c18653;
     margin-top: auto;
     margin-bottom: auto;
-    font-family: "Algerian";
+    font-family: "Papyrus", Fantasy;
 }
 .brand-img{
     display: flex;
     flex-direction: row;
-}
-.no{
-    text-decoration: none;
 }
 
 .Nav-name-box {
@@ -181,6 +178,7 @@ a{
     border-radius: 10px;
     padding: 10px;
     margin-top: 40px;
+    font-family: "Gill Sans", sans-serif;
 }
 .bestseller-cake-img{
     width: 170px;
@@ -190,15 +188,19 @@ a{
 }
 .bestseller-cake-name{
     text-align: center;
-    font-weight: bold;
-    font-size: 32px;
+    font-size: 30px;
     margin-top: 15px;
+}
+.bestseller-card-dis{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
 }
 .bestseller-cake-price{
     text-align: center;
     margin: 15px auto;
     color: #4f1901;
-    font-size: 22px;
+    font-size: 20px;
 }
 .bestseller-cake-button{
     display: block;
@@ -261,6 +263,7 @@ a{
     font-size: 25px;
     margin-top: 15px;
 }
+.review-cake-box{}
 
 @media screen and (max-width:768px) {
     .cake-icon {
