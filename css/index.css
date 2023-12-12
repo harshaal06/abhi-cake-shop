@@ -2,7 +2,6 @@ body {
     background-color: #d3a778;
     margin: 0;
     padding: 0%;
-    
 }
 
 .nav-bar {
@@ -43,7 +42,9 @@ body {
     cursor: pointer;
     text-decoration: none;
 }
-
+a{
+    text-decoration: none;
+}
 .Nav-name:hover {
     transition: 0.2s;
     color: #c18653;
@@ -74,6 +75,10 @@ body {
     border: solid 3px #383b38;
     cursor: pointer;
     margin-top: 40px;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 .headind {
