@@ -66,6 +66,9 @@ a{
     margin-top: auto;
     margin-bottom: auto;
 }
+a{
+    text-decoration: none;
+}
 
 .Explore-button {
     background-color: #2f5663;
