@@ -3,51 +3,71 @@ body {
     margin: 0;
     padding: 0%;
 }
-
-.nav-bar {
-    background-color: #383b38;
-    height: auto;
-    display: flex;
-    flex-direction: row;
+nav {
+    background-color: #383b38;    
     box-shadow: 0px 0px 5px 5px #745336;
-    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 120px;
 }
 
-.cake-icon {
-    height: 55px;
-    margin: 10px;
-    margin-left: 30px;
+nav .fa-solid {
+    display: none;
+    color: #c18653;
 }
 
 .brand-name {
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    color: rgb(204, 202, 202);
+    font-family: "Algerian";
+}
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #c18653;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.4s;
+}
+nav ul li a:hover{
+    transition: 0.2s;
+    color: #c18653;
+}
+nav ul li a:hover::after {
+    width: 100%;
+}
+.brand-name img{
+    height: 55px;
+}
+.brand-name h2{
     color: #c18653;
     margin-top: auto;
     margin-bottom: auto;
     font-family: "Papyrus", Fantasy;
+    font-size: 28px;
 }
-.brand-img{
+.brand-name{
     display: flex;
     flex-direction: row;
-}
-
-.Nav-name-box {
-    margin: auto;
-}
-
-.Nav-name {
-    margin: 20px;
-    color: rgb(204, 202, 202);
-    font-size: 20px;
-    font-family: "Algerian";
-    cursor: pointer;
-    text-decoration: none;
-}
-a{
-    text-decoration: none;
-}
-.Nav-name:hover {
-    transition: 0.2s;
-    color: #c18653;
 }
 
 .box {
@@ -271,38 +291,39 @@ html{
 .review-cake-box{}
 
 @media screen and (max-width:768px) {
-    .cake-icon {
-        height: 60px;
-        margin: 5px;
-        margin-left: 20px;
+    nav {
+        padding: 10px 50px;
     }
-    .nav-bar{
-        flex-direction: column;
-    }
-    .brand-name {
-        font-size: 25px;
-    }
-    .brand-img{
-        display: flex;
-        flex-direction: row;
-    }
-    .Nav-name-box {
-        display: flex;
-        flex-direction: column;
-    }
-
-
-    .Nav-name {
-        margin: 5px;
-        font-size: 20px;
-        text-align: center;
-        border-radius: 10px;
-        padding: 1px 10px;
-        box-shadow: 0px 0px 2px 0.5px #c18653;
+    nav .fa-solid {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 90px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    nav ul {
+        background: #383b38;
+        position: fixed;
+        top: -400px;
+        width: 100%;
+        height: 280px;
+        padding-left: 20px;
+        margin-top: 0;
+        padding-top: 50px;
+        transition: top 0.5s;
+        left: -10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 25px;
+    }
+
+    nav ul .fa-solid {
+        position: absolute;
+        padding-left: 20px;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
     }
 
     .box {
@@ -380,7 +401,7 @@ html{
     }
 }
 
-@media screen and (min-width:767px) and (max-width:991px) {
+@media screen and (max-width: 600px) {
     .cake-icon {
         height: 35px;
         margin-left: 15px;
